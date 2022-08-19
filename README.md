@@ -6,6 +6,8 @@
 
 *O prazo para realização deste teste é de quatro dias corridos.*
 
+O projeto: https://depoly-web-pacman.vercel.app/#/
+
 ## Como foi desenvolvido
 Para desenvolver esse mini-Game do pac man, optei por separar esse desafio em duas "Task":
 
@@ -29,4 +31,4 @@ A parte mais difícil do desafio foi entender o software Tiled e como ele intera
 
 Após ter entendido como funciona o tiled e a biblioteca tinha ainda o desafio de entregar o projeto em 4 dias. Bom, o resultado, acredito que se tivesse mais tempo conseguiria polir mais o jogo e tornar a experiência do jogador melhor, apesar de tudo estou contente com o resultado :).
 
-[Build in Progress...]
+(https://depoly-web-pacman.vercel.app/#/)
