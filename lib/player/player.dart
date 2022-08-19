@@ -22,7 +22,11 @@ class PacMan extends SimplePlayer with ObjectCollision {
   @override
   void die() {
     removeFromParent();
-    /* gameRef.add(AnimatedObjectOnce()) */
+    gameRef.add(AnimatedObjectOnce(
+      animation: PlayerSpriteSheet.die,
+      position: position,
+      size: Vector2(64, 64),
+    ));
     super.die();
   }
 }

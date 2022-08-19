@@ -1,8 +1,8 @@
 import 'package:bonfire/bonfire.dart';
+import 'package:escribo_teste_2/coin/coin.dart';
 import 'package:escribo_teste_2/enemys/enemy.dart';
 import 'package:escribo_teste_2/enemys/enemy_controller.dart';
 import 'package:escribo_teste_2/player/player.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 double tileSize = 64;
@@ -36,8 +36,13 @@ class Teste extends StatelessWidget {
             keyboardConfig: KeyboardConfig(enable: true)), // required
         map:
             TiledWorldMap('tiled/map/Mapa-Teste-Escribo.json', objectsBuilder: {
-          'ghost': ((properties) => GhostEnemy(
-              position: properties.position, colorEnemy: ColorEnemy.red))
+          'ghost_red': (properties) => GhostEnemy(
+              position: properties.position, colorEnemy: ColorEnemy.red),
+          'ghost_yellow': (properties) => GhostEnemy(
+              position: properties.position, colorEnemy: ColorEnemy.yellow),
+          'ghost_pink': (properties) => GhostEnemy(
+              position: properties.position, colorEnemy: ColorEnemy.pink),
+          'coin': (properties) => Coin(properties.position)
         }),
         player: PacMan(Vector2(17 * tileSize, 10 * tileSize)),
       );

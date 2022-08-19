@@ -71,6 +71,7 @@ flutter:
     - assets/images/tiled/player/walking-left.png
     - assets/images/tiled/player/walking-right.png
     - assets/images/tiled/player/walking-top.png
+    - assets/images/tiled/player/die.png
     # Enemy Pink
     - assets/images/tiled/enemys/enemy_pink/enemy_pink_walk_bottom.png
     - assets/images/tiled/enemys/enemy_pink/enemy_pink_walk_left.png

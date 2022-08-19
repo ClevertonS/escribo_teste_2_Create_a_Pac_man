@@ -26,6 +26,11 @@ class PlayerSpriteSheet {
       SpriteAnimationData.sequenced(
           amount: 3, stepTime: 0.075, textureSize: Vector2(64, 64)));
 
+  static Future<SpriteAnimation> get die => SpriteAnimation.load(
+      "tiled/player/die.png",
+      SpriteAnimationData.sequenced(
+          amount: 8, stepTime: 0.075, textureSize: Vector2(64, 64)));
+
   static SimpleDirectionAnimation get simpleDirectionAnimation =>
       SimpleDirectionAnimation(
           idleRight: idle,
