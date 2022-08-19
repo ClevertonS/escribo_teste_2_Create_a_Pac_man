@@ -8,6 +8,8 @@
 
 O projeto: https://depoly-web-pacman.vercel.app/#/
 
+link do repo build: https://github.com/ClevertonS/Depoly_web_pacman
+
 ## Como foi desenvolvido
 Para desenvolver esse mini-Game do pac man, optei por separar esse desafio em duas "Task":
 
